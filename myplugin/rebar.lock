@@ -1,0 +1,24 @@
+{"1.1.0",
+[{<<"base16">>,{pkg,<<"base16">>,<<"1.0.0">>},0},
+ {<<"eini">>,{pkg,<<"eini">>,<<"1.2.6">>},0},
+ {<<"erlcloud">>,{pkg,<<"erlcloud">>,<<"3.2.10">>},0},
+ {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"2.9.0">>},0},
+ {<<"lager">>,
+  {git,"https://github.com/erlang-lager/lager.git",
+       {ref,"27a075b0c488a9d334fc7a98b412c6bcf217be89"}},
+  0},
+ {<<"lhttpc">>,{pkg,<<"lhttpc">>,<<"1.6.2">>},0},
+ {<<"vernemq_dev">>,
+  {git,"git://github.com/vernemq/vernemq_dev.git",
+       {ref,"741655f532ad16bb501d01230c7fb68dbae523d2"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"base16">>, <<"283644E2B21BD5915ACB7178BED7851FB07C6E5749B8FAD68A53C501092176D9">>},
+ {<<"eini">>, <<"DFFA48476FD89FB6E41CEEA0ADFA1BC6E7862CCD6584417442F8BB37E5D34715">>},
+ {<<"erlcloud">>, <<"D7E6D4E2244F4EF6AD79A31A31DF3F55AEA3FCF84E6CBB49991FD3EA285CDED9">>},
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
+ {<<"jsx">>, <<"D2F6E5F069C00266CAD52FB15D87C428579EA4D7D73A33669E12679E203329DD">>},
+ {<<"lhttpc">>, <<"044F16F0018C7AA7E945E9E9406C7F6035E0B8BC08BF77B00C78CE260E1071E3">>}]}
+].

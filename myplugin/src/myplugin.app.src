@@ -1,0 +1,30 @@
+{application, myplugin,
+  [{description, "Plugin for integration of VerneMQ and Kinesis"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {myplugin_app, []}},
+    {applications,
+      [kernel,
+        stdlib,
+        crypto,
+        public_key,
+        ssl,
+        inets,
+        jsx
+%%        eini,
+%%        base16
+      ]},
+
+    {env, [
+      {vmq_plugin_hooks,
+        [{myplugin, auth_on_register, 5, []},
+          {myplugin, auth_on_publish, 6, []},
+          {myplugin, auth_on_subscribe, 3, []},
+          {myplugin, on_publish, 6, []}
+        ]}
+    ]},
+    {modules, []},
+
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+  ]}.

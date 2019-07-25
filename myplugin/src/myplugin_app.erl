@@ -1,0 +1,18 @@
+%%%-------------------------------------------------------------------
+%% @doc myplugin public API
+%% @end
+%%%-------------------------------------------------------------------
+
+-module(myplugin_app).
+
+-behaviour(application).
+
+-export([start/2, stop/1]).
+
+start(_StartType, _StartArgs) ->
+    myplugin_sup:start_link().
+
+stop(_State) ->
+    ok.
+
+%% internal functions
